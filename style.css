@@ -1,15 +1,18 @@
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-  /* border: 1px solid rgb(148, 144, 144); */
-}
 #header {
   border-top: #3882f6 1px solid;
   border-bottom: 1px solid rgb(109, 107, 107);
   position: sticky;
   top: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100%;
 }
 #header,
 #hero-container {
@@ -31,7 +34,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(96, 100, 99);
+  background-color: rgb(117, 121, 120);
   width: 600px;
   height: 250px;
 }
@@ -79,7 +82,6 @@ body {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
 }
 .image-box > img {
   border: #3882f6 solid 3px;
@@ -127,4 +129,57 @@ body {
   color: #f9faf8;
   align-items: center;
   justify-content: center;
+}
+#call-to-action-container {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#call-to-action {
+  overflow: hidden;
+  border-radius: 12px;
+  width: 60%;
+  min-height: 140px;
+  padding: 20px;
+  color: #e5e7eb;
+  display: flex;
+  background-color: #3882f6;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#call-to-action > .text {
+  flex: 1.5 0.7;
+  min-width: 400px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 10%;
+  font-size: 17px;
+}
+.text > h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px;
+}
+#call-to-action > .button-container {
+  flex: 1 1;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action-button {
+  padding: 5px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  border: 2px solid snow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
