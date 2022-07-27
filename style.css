@@ -23,8 +23,17 @@ body {
 #hero-container {
   min-height: 400px;
   display: flex;
-  flex-direction: wrap;
-  padding-bottom: 20px;
+  flex-wrap: wrap;
+  padding: 40px 10%;
+  gap: 40px;
+}
+#hero-container > #image-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(96, 100, 99);
+  width: 600px;
+  height: 250px;
 }
 #hero-heading {
   font-size: 48px;
@@ -86,6 +95,30 @@ body {
 .image-box {
   width: 250px;
   text-align: center;
+}
+#quote-container {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  gap: 20px;
+}
+#quote-container > p {
+  margin: 0px 20%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #1f2937;
+}
+#quote-container > strong {
+  margin: 20px 10% 0px;
+  font-size: 28px;
+  align-self: flex-end;
+  color: #34445a;
 }
 #footer {
   background-color: #1f2937;
