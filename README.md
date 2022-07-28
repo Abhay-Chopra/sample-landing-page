@@ -9,5 +9,5 @@ This webpage is not a finished product. It is simply to show off the power of fl
 ## To Do's
 1) Add hamburger menu for header (for smaller viewports)
 
-## What I learnt
-The main thing I learnt from building up this webpage is how to use flex box and pure CSS to be able to create a clean (holy-grail) design.
+## What I learned
+The main thing I learned from building up this webpage is how to use flex box and pure CSS to be able to create a clean (holy-grail) design.
